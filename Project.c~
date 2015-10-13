@@ -51,6 +51,9 @@ void gotoxy(int x, int y) {
 }
 
 
+
+
+
 void border() {
 	int i,j;	
 	system("clear");
@@ -120,7 +123,7 @@ void savetofile() {
 	FILE *fp;
 	fp = fopen("game.txt","a");
 	fprintf(fp,"Player name :%s\n",playername);
-	fprintf(fp,"Player score :%d\n",getscore());   
+	fprintf(fp,"Player score :%d\n",getsore());   
 	fclose(fp);
 	printf("Do you wish to see your highscores ( Y OR N)?\n");   //I will attempt to sort this file to show top 3 scores as of now it 										shows all the score
 	scanf("%c",&ch);

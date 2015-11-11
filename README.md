@@ -17,8 +17,12 @@
 
 Snake is a little yet popular game where you have to catch as many stars as possible with your snake. This game is well-known on the nokia mobile phones, but I wrote my own version for the terminal.
 
-You can control the game with the keys w(up), s (down), a (left) and d (right).
-The instructions and the controls are a part of the programme and the game is made as interactive as possible.I have used arrays to record the movement of the snake.Various structures and their variables are used to determine the direction of the snake and a seperate highscore file is also attached which keeps track of the highscores of the user.The high score file is also sorted on the basis of the score ( done manually :) )For further details the .jpeg file shows the way the code is implemented. 
+The game starts of with an interactive menu which gives the user options such as to start a new game, to see the controls etc.The game then allows you to control the speed and the game starts then.
+
+The game uses an array to monitor the movements of the snake and further details about the data structure are given in the .jpeg file.
+I have also put some art to make the game interactive which is not created by me.
+
+Also I would like to mention that the main challenge of this code was to move the snake which took me a while.
 
 A video is also included which shows the demo of the game in progress.
 
